@@ -8,127 +8,167 @@ PixiJS — The HTML5 Creation Engine
 [![Node.js CI](https://github.com/pixijs/pixijs/workflows/Node.js%20CI/badge.svg)](https://github.com/pixijs/pixijs/actions?query=workflow%3A%22Node.js+CI%22)
 [![Financial Contributors](https://opencollective.com/pixijs/tiers/badge.svg)](https://opencollective.com/pixijs/donate)
 
-This project aims to provide a fast, lightweight 2D library that works
-across all devices. The PixiJS renderer allows everyone to enjoy the power of
-hardware acceleration without prior knowledge of WebGL. Also, it's fast. Really fast.
-
-If you want to keep up to date with the latest PixiJS news then feel free to follow us on Twitter [@PixiJS](https://twitter.com/PixiJS)
-and we will keep you posted! You can also check back on [our site](https://www.pixijs.com)
-as any breakthroughs will be posted up there too!
-
-**We are now a part of the [Open Collective](https://opencollective.com/pixijs) and with your support you can help us make PixiJS even better. To make a donation, simply click the button below and we'll love you forever!**
-
-<div align="center">
-  <a href="https://opencollective.com/pixijs/donate" target="_blank">
-    <img src="https://opencollective.com/pixijs/donate/button@2x.png?color=blue" width=250 />
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-pixijs--the-html5-creation-engine" class="anchor" aria-hidden="true" tabindex="-1" href="#pixijs--the-html5-creation-engine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PixiJS — HTML5 创建引擎</font></font></h1>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a87e9dd5e449b9ee605db77cbc6e5b50c551efad02e9cc88767537d602de9a6c/68747470733a2f2f66696c65732e706978696a732e646f776e6c6f61642f6272616e64696e672f706978696a732d62616e6e65722e706e67"><img src="https://camo.githubusercontent.com/a87e9dd5e449b9ee605db77cbc6e5b50c551efad02e9cc88767537d602de9a6c/68747470733a2f2f66696c65732e706978696a732e646f776e6c6f61642f6272616e64696e672f706978696a732d62616e6e65722e706e67" alt="PixiJS 徽标" data-canonical-src="https://files.pixijs.download/branding/pixijs-banner.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://discord.gg/QrnxmQUPGV" rel="nofollow"><img src="https://camo.githubusercontent.com/089fd617c6338d1dbc284d19242b8755d1b6fdacfc76ab591f220e8a64df3f7f/68747470733a2f2f62616467656e2e6e65742f62616467652f69636f6e2f646973636f72643f69636f6e3d646973636f7264266c6162656c" alt="不和谐" data-canonical-src="https://badgen.net/badge/icon/discord?icon=discord&amp;label" style="max-width: 100%;"></a>
+<a href="https://badge.fury.io/js/pixi.js" rel="nofollow"><img src="https://camo.githubusercontent.com/6f6cb8fbab35b873a46cb405963907e345661c8bb833c4d58ec443e84282f35e/68747470733a2f2f62616467652e667572792e696f2f6a732f706978692e6a732e737667" alt="npm版本" data-canonical-src="https://badge.fury.io/js/pixi.js.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/pixijs/pixijs/actions?query=workflow%3A%22Node.js+CI%22"><img src="https://github.com/pixijs/pixijs/workflows/Node.js%20CI/badge.svg" alt="Node.js 持续集成" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/pixijs/donate" rel="nofollow"><img src="https://camo.githubusercontent.com/da3bc90bc1d7c014f942f9a3b01ddb1f5e9ba6d2af3514404855b5895d8d50ed/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f706978696a732f74696572732f62616467652e737667" alt="财务贡献者" data-canonical-src="https://opencollective.com/pixijs/tiers/badge.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目旨在提供一个可在所有设备上运行的快速、轻量级 2D 库。</font><font style="vertical-align: inherit;">PixiJS 渲染器让每个人无需具备 WebGL 知识即可享受硬件加速的强大功能。</font><font style="vertical-align: inherit;">而且，它很快。</font><font style="vertical-align: inherit;">真的很快。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解最新的 PixiJS 新闻，请随时在 Twitter 上关注我们</font></font><a href="https://twitter.com/PixiJS" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@PixiJS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+，我们会及时通知您！</font><font style="vertical-align: inherit;">您也可以回来查看</font></font><a href="https://www.pixijs.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，因为任何突破也会发布在那里！</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"></font><a href="https://opencollective.com/pixijs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们现在是Open Collective</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的一部分</font><font style="vertical-align: inherit;">，在您的支持下，您可以帮助我们使 PixiJS 变得更好。</font><font style="vertical-align: inherit;">要捐款，只需单击下面的按钮，我们将永远爱您！</font></font></strong></p>
+<div align="center" dir="auto">
+  <a href="https://opencollective.com/pixijs/donate" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/956c19833fff66549a9618b21258f147ea2fbbcc940293699d1289b6c58f3194/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f706978696a732f646f6e6174652f627574746f6e4032782e706e673f636f6c6f723d626c7565" width="250" data-canonical-src="https://opencollective.com/pixijs/donate/button@2x.png?color=blue" style="max-width: 100%;">
   </a>
 </div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-what-to-use-pixijs-for-and-when-to-use-it" class="anchor" aria-hidden="true" tabindex="-1" href="#what-to-use-pixijs-for-and-when-to-use-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PixiJS 的用途以及何时使用</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PixiJS 是一个渲染库，可让您创建丰富的交互式图形以及跨平台应用程序和游戏，而无需深入研究 WebGL API 或处理浏览器和设备兼容性。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PixiJS 具有完整的</font></font><a href="https://en.wikipedia.org/wiki/WebGL" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebGL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持，并在需要时无缝回退到 HTML5 的</font></font><a href="https://en.wikipedia.org/wiki/Canvas_element" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">画布</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">作为一个框架，PixiJS 是创作交互式内容的绝佳工具，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尤其是在近年来逐渐放弃 Adob&ZeroWidthSpace;&ZeroWidthSpace;e Flash 的情况下</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">将其用于图形丰富的交互式网站、应用程序和 HTML5 游戏。</font><font style="vertical-align: inherit;">开箱即用、跨平台兼容性和优雅的降级意味着您要做的工作更少，而且乐趣更多！</font><font style="vertical-align: inherit;">如果您想相对快速地创建精美和精致的体验，而不需要深入研究密集的低级代码，同时避免浏览器不一致的麻烦，那么请在您的下一个项目中加入一些 PixiJS 魔法！</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">促进您的发展并随意发挥您的想象力！</font></font></strong></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-learn" class="anchor" aria-hidden="true" tabindex="-1" href="#learn"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="https://www.pixijs.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站：在官方网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上了解有关 PixiJS 的更多信息</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门：
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看@kittykatattack 的综合</font></font><a href="https://github.com/kittykatattack/learningPixi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请查看 @miltoncandelero 的 PixiJS 教程，该教程旨在提供食谱、最佳实践和 TypeScript / npm / webpack 设置的视频</font></font><a href="https://www.pixijselementals.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">游戏</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"></font><a href="https://pixijs.io/examples/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例：在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接尝试并使用 PixiJS 代码和功能</font><font style="vertical-align: inherit;">！</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://pixijs.io/docs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：通过查看文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解 PixiJS API </font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://pixijs.io/guides/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南：这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是 API 文档的补充指南</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基百科：其他杂项。</font><font style="vertical-align: inherit;">教程和资源位于</font></font><a href="https://github.com/pixijs/pixijs/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wiki 上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-community" class="anchor" aria-hidden="true" tabindex="-1" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛：查看</font></font><a href="https://www.html5gamedevs.com/forum/15-pixijs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://stackoverflow.com/search?q=pixi.js" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stackoverflow——</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这两个地方都很友好，可以提出 PixiJS 问题。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵感：参观</font></font><a href="https://www.pixijs.com/gallery" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">画廊</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，看看人们创造的一些令人惊叹的东西！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天：您可以在</font></font><a href="https://discord.gg/QrnxmQUPGV" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上加入我们，讨论 PixiJS。</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PixiJS 上手非常简单！</font><font style="vertical-align: inherit;">只需下载</font></font><a href="https://github.com/pixijs/pixijs/wiki/FAQs#where-can-i-get-a-build"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预构建版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">即可！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.npmjs.com/getting-started/what-is-npm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，PixiJS 可以与npm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一起安装</font><font style="vertical-align: inherit;">，或者简单地使用内容分发网络 (CDN) URL 将 PixiJS 直接嵌入到您的 HTML 页面中。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：v4.5.0 之后，</font><font style="vertical-align: inherit;">不再支持</font></font><a href="https://bower.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bower包管理器。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/pixijs/pixijs/releases/tag/v4.5.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发行说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多信息。</font></font></em></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-npm-install" class="anchor" aria-hidden="true" tabindex="-1" href="#npm-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NPM安装</font></font></h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm install pixi.js</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install pixi.js" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有默认导出。</font><font style="vertical-align: inherit;">导入PixiJS的正确方法是：</font></font></p>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-c1">*</span> <span class="pl-k">as</span> <span class="pl-c1">PIXI</span> <span class="pl-k">from</span> <span class="pl-s">'pixi.js'</span><span class="pl-kos">;</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import * as PIXI from 'pixi.js';" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h4 tabindex="-1" dir="auto"><a id="user-content-cdn-install" class="anchor" aria-hidden="true" tabindex="-1" href="#cdn-install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CDN安装</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 jsDelivr：</font></font></p>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>="<span class="pl-s">https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="<script src=&quot;https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js&quot;></script>" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者通过 unpkg：</font></font></p>
+<div class="highlight highlight-text-html-basic notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-kos">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span>="<span class="pl-s">https://unpkg.com/pixi.js@7.x/dist/pixi.min.js</span>"<span class="pl-kos">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-ent">script</span><span class="pl-kos">&gt;</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="<script src=&quot;https://unpkg.com/pixi.js@7.x/dist/pixi.min.js&quot;></script>" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-demos" class="anchor" aria-hidden="true" tabindex="-1" href="#demos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h3>
+<ul dir="auto">
+<li><a href="https://pixijs.io/filters/tools/demo/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤器演示</font></font></a></li>
+<li><a href="http://work.goodboydigital.com/runpixierun/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小精灵快跑</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/bunnymark" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">兔子演示</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/storm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">风暴酝酿</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/examples/11" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染纹理演示</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/examples/13" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基元演示</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/examples/14" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掩蔽演示</font></font></a></li>
+<li><a href="http://www.goodboydigital.com/pixijs/examples/6" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">互动演示</font></font></a></li>
+<li><a href="http://gametest.mobi/pixi/balls" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">photonstorm 的球演示</font></font></a></li>
+<li><a href="http://gametest.mobi/pixi/morph" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">photonstorm 的 Morph 演示</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢</font></font><a href="https://twitter.com/photonstorm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@photonstorm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供最后两个示例并允许我们分享源代码:)</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-contribute" class="anchor" aria-hidden="true" tabindex="-1" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想成为 PixiJS 项目的一部分吗？</font><font style="vertical-align: inherit;">伟大的！</font><font style="vertical-align: inherit;">欢迎大家！</font><font style="vertical-align: inherit;">我们将一起更快地实现这一目标 :) 无论您发现错误、有很好的功能请求，还是想拥有上面路线图中的任务，请随时与我们联系。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请务必在提交更改之前阅读</font></font><a href="/pixijs/pixijs/blob/dev/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-current-features" class="anchor" aria-hidden="true" tabindex="-1" href="#current-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前功能</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebGL 渲染器（具有自动智能批处理，可实现真正快速的性能）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">画布渲染器（城里最快！）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全场景图</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超级好用的API（类似于flash显示列表API）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持纹理图集</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资产加载器/精灵表加载器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动检测应使用哪个渲染器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全鼠标和多点触控交互</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位图字体文本</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多行文本</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渲染纹理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始绘图</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">掩蔽</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">过滤器</font></font></li>
+<li><a href="https://github.com/pixijs/pixijs/wiki/v6-Resources"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户插件</font></font></a></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-basic-usage-example" class="anchor" aria-hidden="true" tabindex="-1" href="#basic-usage-example"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本使用示例</font></font></h3>
+<div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-v">Application</span><span class="pl-kos">,</span> <span class="pl-v">Sprite</span><span class="pl-kos">,</span> <span class="pl-v">Assets</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'pixi.js'</span><span class="pl-kos">;</span>
 
-### What to Use PixiJS for and When to Use It
+<span class="pl-c">// The application will create a renderer using WebGL, if possible,</span>
+<span class="pl-c">// with a fallback to a canvas render. It will also setup the ticker</span>
+<span class="pl-c">// and the root stage PIXI.Container</span>
+<span class="pl-k">const</span> <span class="pl-s1">app</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Application</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 
-PixiJS is a rendering library that will allow you to create rich, interactive graphics and cross-platform applications and games without having to dive into the WebGL API or deal with browser and device compatibility.
+<span class="pl-c">// The application will create a canvas element for you that you</span>
+<span class="pl-c">// can then insert into the DOM</span>
+<span class="pl-smi">document</span><span class="pl-kos">.</span><span class="pl-c1">body</span><span class="pl-kos">.</span><span class="pl-en">appendChild</span><span class="pl-kos">(</span><span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-c1">view</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 
-PixiJS has full [WebGL](https://en.wikipedia.org/wiki/WebGL) support and seamlessly falls back to HTML5's [canvas](https://en.wikipedia.org/wiki/Canvas_element) if needed. As a framework, PixiJS is a fantastic tool for authoring interactive content, *especially with the move away from Adobe Flash in recent years*. Use it for your graphics-rich, interactive websites, applications, and HTML5 games. Out-of-the-box, cross-platform compatibility and graceful degradation mean you have less work to do and more fun doing it! If you want to create polished and refined experiences relatively quickly without delving into dense, low-level code, all while avoiding the headaches of browser inconsistencies, then sprinkle your next project with some PixiJS magic!
+<span class="pl-c">// load the texture we need</span>
+<span class="pl-k">const</span> <span class="pl-s1">texture</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-v">Assets</span><span class="pl-kos">.</span><span class="pl-en">load</span><span class="pl-kos">(</span><span class="pl-s">'bunny.png'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 
-**Boost your development and feel free to use your imagination!**
+<span class="pl-c">// This creates a texture from a 'bunny.png' image</span>
+<span class="pl-k">const</span> <span class="pl-s1">bunny</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Sprite</span><span class="pl-kos">(</span><span class="pl-s1">texture</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 
-### Learn ###
-- Website: Find out more about PixiJS on the [official website](https://www.pixijs.com/).
-- Getting started:
-    - Check out @kittykatattack's comprehensive [tutorial](https://github.com/kittykatattack/learningPixi).
-    - Also check out @miltoncandelero's PixiJS tutorials aimed toward videogames with recipes, best practices, and TypeScript / npm / webpack setup [here](https://www.pixijselementals.com/)
-- Examples: Get stuck right in and play around with PixiJS code and features right [here](https://pixijs.io/examples/)!
-- Docs: Get to know the PixiJS API by checking out the [docs](https://pixijs.io/docs/).
-- Guide: Supplementary guide to the API documentation [here](https://pixijs.io/guides/).
-- Wiki: Other misc. tutorials and resources are [on the Wiki](https://github.com/pixijs/pixijs/wiki).
+<span class="pl-c">// Setup the position of the bunny</span>
+<span class="pl-s1">bunny</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c1">=</span> <span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-c1">renderer</span><span class="pl-kos">.</span><span class="pl-c1">width</span> <span class="pl-c1">/</span> <span class="pl-c1">2</span><span class="pl-kos">;</span>
+<span class="pl-s1">bunny</span><span class="pl-kos">.</span><span class="pl-c1">y</span> <span class="pl-c1">=</span> <span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-c1">renderer</span><span class="pl-kos">.</span><span class="pl-c1">height</span> <span class="pl-c1">/</span> <span class="pl-c1">2</span><span class="pl-kos">;</span>
 
-### Community ###
-- Forums: Check out the [forum](https://www.html5gamedevs.com/forum/15-pixijs/) and [Stackoverflow](http://stackoverflow.com/search?q=pixi.js) -- both friendly places to ask your PixiJS questions.
-- Inspiration: Check out the [gallery](https://www.pixijs.com/gallery) to see some of the amazing things people have created!
-- Chat: You can join us on [Discord](https://discord.gg/QrnxmQUPGV) to chat about PixiJS.
+<span class="pl-c">// Rotate around the center</span>
+<span class="pl-s1">bunny</span><span class="pl-kos">.</span><span class="pl-c1">anchor</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c1">=</span> <span class="pl-c1">0.5</span><span class="pl-kos">;</span>
+<span class="pl-s1">bunny</span><span class="pl-kos">.</span><span class="pl-c1">anchor</span><span class="pl-kos">.</span><span class="pl-c1">y</span> <span class="pl-c1">=</span> <span class="pl-c1">0.5</span><span class="pl-kos">;</span>
 
-### Setup ###
+<span class="pl-c">// Add the bunny to the scene we are building</span>
+<span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-c1">stage</span><span class="pl-kos">.</span><span class="pl-en">addChild</span><span class="pl-kos">(</span><span class="pl-s1">bunny</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 
-It's easy to get started with PixiJS! Simply download a [prebuilt build](https://github.com/pixijs/pixijs/wiki/FAQs#where-can-i-get-a-build)!
-
-Alternatively, PixiJS can be installed with [npm](https://docs.npmjs.com/getting-started/what-is-npm) or simply using a content delivery network (CDN) URL to embed PixiJS directly on your HTML page.
-
-_Note: After v4.5.0, support for the [Bower](https://bower.io) package manager has been dropped. Please see the [release notes](https://github.com/pixijs/pixijs/releases/tag/v4.5.0) for more information._
-
-#### NPM Install
-
-```sh
-npm install pixi.js
-```
-
-There is no default export. The correct way to import PixiJS is:
-
-```js
-import * as PIXI from 'pixi.js';
-```
-
-#### CDN Install
-
-Via jsDelivr:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
-```
-
-Or via unpkg:
-
-```html
-<script src="https://unpkg.com/pixi.js@7.x/dist/pixi.min.js"></script>
-```
-
-### Demos ###
-
-- [Filters Demo](https://pixijs.io/filters/tools/demo/)
-- [Run Pixie Run](http://work.goodboydigital.com/runpixierun/)
-- [Bunny Demo](http://www.goodboydigital.com/pixijs/bunnymark)
-- [Storm Brewing](http://www.goodboydigital.com/pixijs/storm)
-- [Render Texture Demo](http://www.goodboydigital.com/pixijs/examples/11)
-- [Primitives Demo](http://www.goodboydigital.com/pixijs/examples/13)
-- [Masking Demo](http://www.goodboydigital.com/pixijs/examples/14)
-- [Interaction Demo](http://www.goodboydigital.com/pixijs/examples/6)
-- [photonstorm's Balls Demo](http://gametest.mobi/pixi/balls)
-- [photonstorm's Morph Demo](http://gametest.mobi/pixi/morph)
-
-Thanks to [@photonstorm](https://twitter.com/photonstorm) for providing
-those last 2 examples and allowing us to share the source code :)
-
-### Contribute ###
-
-Want to be part of the PixiJS project? Great! All are welcome! We will get there quicker
-together :) Whether you find a bug, have a great feature request, or you fancy owning a task
-from the road map above, feel free to get in touch.
-
-Make sure to read the [Contributing Guide](.github/CONTRIBUTING.md)
-before submitting changes.
-
-### Current features ###
-
-- WebGL renderer (with automatic smart batching, allowing for REALLY fast performance)
-- Canvas renderer (Fastest in town!)
-- Full scene graph
-- Super easy to use API (similar to the flash display list API)
-- Support for texture atlases
-- Asset loader / sprite sheet loader
-- Auto-detect which renderer should be used
-- Full Mouse and Multi-touch Interaction
-- Text
-- BitmapFont text
-- Multiline Text
-- Render Texture
-- Primitive Drawing
-- Masking
-- Filters
-- [User Plugins](https://github.com/pixijs/pixijs/wiki/v6-Resources)
-
-### Basic Usage Example ###
-
-```js
-import { Application, Sprite, Assets } from 'pixi.js';
+<span class="pl-c">// Listen for frame updates</span>
+<span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-c1">ticker</span><span class="pl-kos">.</span><span class="pl-en">add</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-c">// each frame we spin the bunny around a bit</span>
+    <span class="pl-s1">bunny</span><span class="pl-kos">.</span><span class="pl-c1">rotation</span> <span class="pl-c1">+=</span> <span class="pl-c1">0.01</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">;</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import { Application, Sprite, Assets } from 'pixi.js';
 
 // The application will create a renderer using WebGL, if possible,
 // with a fallback to a canvas render. It will also setup the ticker
@@ -160,38 +200,52 @@ app.stage.addChild(bunny);
 app.ticker.add(() => {
     // each frame we spin the bunny around a bit
     bunny.rotation += 0.01;
-});
-```
-
-### How to build ###
-
-Note that for most users you don't need to build this project. If all you want is to use PixiJS, then
-just download one of our [prebuilt releases](https://github.com/pixijs/pixijs/releases). 
-The only time you should need to build PixiJS is if you are developing it.
-
-If you don't already have Node.js and NPM, go install them. Then, in the folder where you have cloned
-the repository, install the build dependencies using npm:
-
-```sh
-npm install
-```
-
-Then, to build the source, run:
-
-```sh
-npm run build
-```
-
-### How to generate the documentation ###
-
-The docs can be generated using npm:
-
-```sh
-npm run docs
-```
-
-The documentation uses [webdoc](https://github.com/webdoc-labs/webdoc) in combination with this template: [pixi-webdoc-template](https://github.com/pixijs/pixi-webdoc-template). The configuration file can be found at [webdoc.conf.json](webdoc.conf.json)
-
-### License ###
-
-This content is released under the (http://opensource.org/licenses/MIT) MIT License.
+});" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-how-to-build" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何建造</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，对于大多数用户来说，您不需要构建此项目。</font><font style="vertical-align: inherit;">如果您只想使用 PixiJS，那么只需下载我们的</font></font><a href="https://github.com/pixijs/pixijs/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预构建版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之一。</font><font style="vertical-align: inherit;">您唯一需要构建 PixiJS 的时候是在开发它的时候。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您还没有 Node.js 和 NPM，请安装它们。</font><font style="vertical-align: inherit;">然后，在克隆存储库的文件夹中，使用 npm 安装构建依赖项：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm install</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm install" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，要构建源代码，请运行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm run build</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm run build" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-how-to-generate-the-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-generate-the-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何生成文档</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用 npm 生成文档：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm run docs</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm run docs" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文档将</font></font><a href="https://github.com/webdoc-labs/webdoc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">webdoc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与此模板结合使用：</font></font><a href="https://github.com/pixijs/pixi-webdoc-template"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pixi-webdoc-template</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><a href="/pixijs/pixijs/blob/dev/webdoc.conf.json"><font style="vertical-align: inherit;">配置文件可以在webdoc.conf.json</font></a><font style="vertical-align: inherit;">中找到</font></font><a href="/pixijs/pixijs/blob/dev/webdoc.conf.json"><font style="vertical-align: inherit;"></font></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://opensource.org/licenses/MIT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此内容根据 ( http://opensource.org/licenses/MIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ) MIT 许可证发布</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
